@@ -72,17 +72,37 @@ header .contenedor-texto .texto .nombre{
     margin-bottom: 10px;
     font-size: 50px;
     line-height: 50px;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 header .contenedor-texto .texto .profesion{
     font-size: 25px;
     line-height: 25px;
+    font-weight: 700;
 }
 
 /*----- ----- MAIN ----- -----*/
 
 .main .contenedor{
     overflow: visible;
+}
+
+.main .contenedor .linkeding{
+    margin: 3em;
+    font-weight: 900;
+    font-size: 1em;
+    
+    font-style: none;
+}
+.main .contenedor .linkeding .link{
+    text-decoration: none;
+    color: rgba(255, 36, 36, 0.511);
+    font-size: 1.5em;
+}
+.main .contenedor .linkeding .link:hover{
+    font-size: 1.5em;
+    color: rgb(255, 36, 36);
 }
 
 .main .acerca-de{
@@ -178,6 +198,11 @@ header .contenedor-texto .texto .profesion{
 .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria{
     font-size: 14px;
     color: #636363;
+}
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .red {
+    font-weight: 700;
+    text-decoration: none;
+    color: rgba(128, 15, 15, 0.789);
 }
 
 /*----- ----- FOOTER ----- -----*/
